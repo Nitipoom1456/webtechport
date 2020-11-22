@@ -7,7 +7,7 @@
             body{
                 background-image: url(Image/macbook.jpg);
                 background-position: top center;
-                position: fixed;
+                background-attachment: fixed;
             }
 			#nav {
 				background-color: blue;
@@ -16,7 +16,8 @@
 				transition: 0.4s;
 				position: fixed;
 				width: 100%;
-				top: 0;
+				top: 0%;
+                margin-left: 0%;
 			}
 			#nav ul li{
 				display: inline;
@@ -27,16 +28,17 @@
 				color: white;
 				padding: 12px;
 			}
-			#headcontent{
-				padding: 30px;
-				margin: 40px;
-			}
             .content {
                 background-color: rgba(255,255,255,0.7);
-		        margin: 50% ;
-		        padding: 50% 800% 50% 100%;
+		        margin: 5% ;
+		        padding: 5% 10% 10% 10%;
 		        border-radius: 10%;
                 font-family: sans-serif;
+            }
+            .content img{
+                float: left;
+                margin-right: 30px;
+                margin-bottom: 15px
             }
             .school{
                 margin: 20px 20px;
@@ -47,6 +49,7 @@
             }
             .college{
                 clear: left;
+                margin: 20px 20px;
             }
 		</style>
 	</head>
@@ -65,13 +68,18 @@
             <h1>Education.</h1>
             <div class="school">
                 <img src="Image/%E0%B8%A3%E0%B8%A3.%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AD%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2.png" width="150px" height="183px">
+                <h3>Primary Education.</h3>
+                <p>Graduated from Wat Omnoi (Mitrkruratrungsan) school in 2014.</p>
             </div>
             <div class="highschool">
                 <img src="Image/OSC%20logo.png" width="150px" height="183px">
-                
+                <h3>High school.</h3>
+                <p>Graduated from Omnoisophonchanupatham school in 2020. Sci-Math major with 3.55 GPAX.</p>
             </div>
             <div class="college">
                 <img src="Image/KMUTT.png" width="150px" height="150px">
+                <h3>College.</h3>
+                <p>After graduated from Highschool.I'm has been admission to School of Information Technology (SIT) of King Mongkut's University of Technology Thonburi (KMUTT) in Information Technology (IT) major since Febuary 2020.</p>
             </div>
         </div>
 	</body>
